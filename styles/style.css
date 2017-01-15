@@ -1,0 +1,638 @@
+#watch7-sidebar-contents {
+    padding: 0px !important;
+    min-height: 600px !important;
+}
+.mdl-layout__header {
+    min-height: 50px;
+    background-color: #ffffff;
+}
+.mdl-layout__content {
+    padding-top: 0px;
+}
+.mdl-layout__container {
+    width: inherit;
+}
+.mdl-layout__tab:hover {
+    text-decoration: none;
+}
+.mdl-layout__tab {
+    background-color: #ffffff;
+    color: #bebebe;
+}
+.tab-title {
+    font-family: Roboto, arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 6px;
+}
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+#publishDate {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #505050;
+    background-color: #f1f1f1;
+    margin-top: -6px;
+    margin-bottom: 8px;}
+
+/*videos tab*/
+#watch-more-related-button{
+    display: block;
+}
+#scroll-tab-1{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.fa {
+    font-size: 18px;
+}
+.fa-comment {
+    margin-right: 4px;
+}
+.fa-film {
+    font-size: 15px;
+}
+.mdl-layout__tab-bar {
+    background-color: rgb(255, 255, 255);
+}
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active::after {
+    background: rgb(227, 48, 48);
+}
+#watch-description-text {
+    max-height: 100% !important;
+}
+.yt-card.yt-uix-expander .yt-uix-button-expander,
+.yt-card .yt-uix-expander .yt-uix-button-expander {
+    display: none;
+}
+#watch-discussion {
+    padding-top: 0px;
+}
+#volumeUI {
+    color: #ffffff;
+    font-size: 36px;
+    position: absolute;
+    z-index: 1000;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.57);
+    width: 76px;
+    padding: 2px;
+    text-align: center;
+}
+#PublishedDateText {
+    color: #585858;
+    font-size: 16px;
+    font-weight: 500;
+}
+.scroll1::-webkit-scrollbar {
+    width: 8px;
+}
+.scroll1::-webkit-scrollbar-track {
+    background: #ddd;
+}
+.scroll1::-webkit-scrollbar-thumb {
+    background: #666;
+}
+#settings {
+    display: inline-block;
+    padding: 0px 6px 0px 4px;
+}
+.mdl-switch__track {
+    background: rgba(0, 0, 0, .26);
+    width: 30px;
+}
+.mdl-switch__thumb {
+    background: #565656;
+    width: 15px;
+    height: 15px;
+    top: 4px;
+}
+.mdl-switch.is-checked .mdl-switch__thumb {
+    background: #ffffff;
+}
+.mdl-switch__track {
+    background: rgb(186, 186, 186);
+}
+.mdl-switch.is-checked .mdl-switch__track {
+    background: rgb(186, 186, 186);
+}
+.lcs_switch.lcs_off {
+    background: #5c5c5c;
+    box-shadow: 0px 0px 2px #a4a4a4 inset;
+}
+.lcs_switch.lcs_on {
+    background: #5c5c5c;
+    box-shadow: 0 0 2px #1b1b1b inset;
+}
+.lcs_wrap {
+    height: inherit;
+}
+.lcs_switch {
+    vertical-align: middle;
+    width: 44px;
+    height: 16px;
+    border-radius: 10px;
+}
+.lcs_switch.lcs_on .lcs_cursor {
+    left: 29px;
+}
+.lcs_switch.lcs_off .lcs_cursor {
+    left: 3px;
+}
+.lcs_cursor {
+    top: 2px;
+    width: 12px;
+    height: 12px;
+}
+.lcs_switch.lcs_on .lcs_label_on {
+    left: 4px;
+    opacity: 1;
+}
+.lcs_switch.lcs_off .lcs_label_off {
+    right: 1px;
+}
+.lcs_label {
+    font-size: 9px;
+    width: 29px;
+    top: 0px;
+    color: white;
+}
+#searchSpinner {
+    width: 90px;
+    height: 90px;
+    font-weight: bolder;
+    margin-right: 4px;
+}
+#searchSpinnerContainer {
+    height: inherit;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 40%;
+}
+#loadNewResultSpin {
+    width: 30px;
+    height: 30px;
+}
+#loadNewResultSpinContainer {
+    display: none;
+    vertical-align: middle;
+    text-align: center;
+}
+#searchResults {
+    padding: 0px 6px;
+}
+#searchResults li {
+    padding-bottom: 8px;
+}
+#commentsSpinner {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+.mdl-spinner--single-color .mdl-spinner__layer-1 {
+    border-color: #9f9f9f;
+}
+.mdl-spinner--single-color .mdl-spinner__layer-2 {
+    border-color: #9f9f9f;
+}
+.mdl-spinner--single-color .mdl-spinner__layer-3 {
+    border-color: #9f9f9f;
+}
+.mdl-spinner--single-colo .mdl-spinner__layer-4 {
+    border-color: #9f9f9f;
+}
+#download-btn {
+    height: 24px;
+    margin-left: 8px;
+}
+#awsm-masthead-search {
+    margin-top: 3px;
+    max-width: 650px;
+    overflow: hidden;
+    padding: 0;
+    position: relative
+}
+.exp-searchbox-redesign #awsm-masthead-search {
+    background-color: #f5f5f5;
+    height: 40px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 570px
+}
+.exp-searchbox-redesign #yt-awsm-masthead-container:hover #awsm-masthead-search:before {
+    opacity: 1
+}
+.exp-searchbox-redesign #awsm-masthead-search:before {
+    content: '';
+    display: inline-block;
+    float: left;
+    margin: 0 28px;
+    opacity: .6;
+    position: relative;
+    top: 12px;
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfllryam5.webp) -647px -24px;
+    background-size: auto;
+    width: 15px;
+    height: 15px
+}
+#awsm-masthead-search-term::-webkit-input-placeholder {
+    color: #767676
+}
+#awsm-masthead-search-term::-moz-placeholder {
+    color: #767676
+}
+#awsm-masthead-search-term:-ms-input-placeholder {
+    color: #767676
+}
+#awsm-masthead-search-terms {
+    background-color: #fff;
+    font-size: 14px;
+    height: 29px;
+    line-height: 30px;
+    margin: 0 0 2px;
+    overflow: hidden;
+    position: relative;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: border-color .2s ease;
+    -webkit-transition: border-color .2s ease;
+    transition: border-color .2s ease
+}
+.exp-searchbox-redesign #awsm-masthead-search-terms {
+    background-color: transparent;
+    height: 24px;
+    line-height: 24px;
+    margin: 8px 8px 8px 0
+}
+#awsm-masthead-search .search-btn-component {
+    height: 29px
+}
+#awsm-masthead-search.consolidated-form #awsm-masthead-search-terms label {
+    height: 100%
+}
+.awsm-masthead-search-terms-border {
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 2px #eee
+}
+.exp-searchbox-redesign .awsm-masthead-search-terms-border {
+    border: none;
+    box-shadow: none
+}
+#awsm-masthead-search-terms input {
+    background: transparent;
+    border: 0;
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    outline: none;
+    padding: 2px 6px;
+    position: absolute;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+.exp-searchbox-redesign #awsm-masthead-search-terms input {
+    padding: 0
+}
+.search-term {
+    width: 100%
+}
+#awsm-masthead-search.consolidated-form input:focus,
+#awsm-masthead-search-term:focus {
+    border-color: #fff
+}
+.search-btn-component {
+    padding: 0
+}
+.exp-searchbox-redesign .search-btn-component {
+    display: none
+}
+.search-btn-component:focus {
+    box-shadow: inset 0 0 0 2px rgba(27, 127, 204, 0.4)
+}
+.no-focus-outline #awsm-masthead-search .search-btn-component:focus {
+    box-shadow: none
+}
+#yt-awsm-masthead .search-btn-component .yt-uix-button-content {
+    margin: 0 25px
+}
+@media screen and (max-width:656px) {
+    #yt-awsm-masthead .search-btn-component .yt-uix-button-content {
+        margin: 0 10px
+    }
+}
+#awsm-masthead-search .search-btn-component {
+    float: right
+}
+#awsm-masthead-search .search-btn-component button {
+    vertical-align: top
+}
+#awsm-masthead-search .search-btn-component .yt-uix-button-content {
+    border: none;
+    display: block;
+    opacity: .6;
+    padding: 0;
+    text-indent: -10000px;
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfllryam5.webp) -647px -24px;
+    background-size: auto;
+    width: 15px;
+    height: 15px;
+    box-shadow: none
+}
+#awsm-masthead-search .search-btn-component:hover .yt-uix-button-content,
+#awsm-masthead-search .search-btn-component:focus .yt-uix-button-content {
+    opacity: 1
+}
+#awsm-masthead-search .search-btn-component,
+#awsm-masthead-search .search-btn-component .start {
+    border-left: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-bottom-left-radius: 0
+}
+.watch-meta-item {
+    display: block !important;
+}
+
+/*YTP Control Buttons */
+
+.ytp-play-button {
+    display: inline-flex !important;
+}
+.ytp-mute-button {
+    display: inline-flex !important;
+}
+
+/*player playList*/
+
+#watch-appbar-playlist .watch-playlist {
+    left: auto !important;
+    margin-left: 0px !important;
+    position: relative !important;
+}
+#placeholder-playlist {
+    display: none !important;
+}
+#watch-appbar-playlist {
+    height: inherit !important;
+}
+#watch-appbar-playlist .playlist-header {
+    padding: 0 10px
+}
+#watch-appbar-playlist .control-bar {
+    border-top: 1px solid #3a3a3a;
+    height: 24px;
+    padding: 7px 5px 8px;
+    padding-top: 24px;
+}
+#watch-appbar-playlist .radio-playlist .control-bar,
+#watch-appbar-playlist .watch-queue-nav .control-bar {
+    display: none
+}
+#watch-appbar-playlist .yt-uix-button-player-controls {
+    color: #333;
+    font-size: 11px;
+    margin-left: 10px;
+    padding: 0
+}
+#watch-appbar-playlist .yt-uix-button-player-controls:first-child {
+    margin-left: 0
+}
+#watch-appbar-playlist .yt-uix-button-player-controls:focus {
+    box-shadow: 0 0 0 2px rgba(27, 127, 204, .8)
+}
+.no-focus-outline ##watch-appbar-playlist .yt-uix-button-player-controls:focus {
+    box-shadow: none
+}
+.ie8 ##watch-appbar-playlist .yt-uix-button-player-controls:focus {
+    outline: 2px solid #1b6ba8
+}
+.no-focus-outline .ie8 ##watch-appbar-playlist .yt-uix-button-player-controls:focus {
+    outline: none
+}
+#watch-appbar-playlist .yt-uix-button-icon-playlist-edit {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfllryam5.webp) -42px 0;
+    background-size: auto;
+    width: 24px;
+    height: 24px
+}
+#watch-appbar-playlist .yt-uix-playlistlike:before {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfllryam5.webp) -628px -224px;
+    background-size: auto;
+    width: 24px;
+    height: 24px
+}
+#watch-appbar-playlist .yt-uix-button-toggled.yt-uix-playlistlike:before {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfllryam5.webp) 0 0;
+    background-size: auto;
+    width: 24px;
+    height: 24px
+}
+#watch-appbar-playlist .yt-uix-button-icon-watch-appbar-play-prev,
+.rtl #watch-appbar-playlist .yt-uix-button-icon-watch-appbar-play-next {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfllryam5.webp) -628px -252px;
+    background-size: auto;
+    width: 24px;
+    height: 24px
+}
+#watch-appbar-playlist .yt-uix-button-icon-watch-appbar-play-next,
+.rtl #watch-appbar-playlist .yt-uix-button-icon-watch-appbar-play-prev {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfllryam5.webp) -734px -148px;
+    background-size: auto;
+    width: 24px;
+    height: 24px
+}
+#watch-appbar-playlist .yt-uix-button-icon-watch-appbar-shuffle-video-list {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfllryam5.webp) -519px -132px;
+    background-size: auto;
+    width: 24px;
+    height: 24px
+}
+#watch-appbar-playlist .yt-uix-button-icon-watch-appbar-autoplay {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfllryam5.webp) -427px -177px;
+    background-size: auto;
+    width: 24px;
+    height: 24px
+}
+#watch-appbar-playlist .playlist-header-content {
+    font-size: 11px;
+    height: 37px;
+    line-height: 1.5;
+    padding: 15px 5px 8px padding-bottom: 0px;
+    padding-top: 8px;
+}
+#watch-appbar-playlist .playlist-mix-icon {
+    float: left;
+    margin-right: 10px;
+    margin-top: 4px;
+    overflow: hidden;
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfllryam5.webp) -399px -177px;
+    background-size: auto;
+    width: 24px;
+    height: 24px
+}
+#watch-appbar-playlist .playlist-info {
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+#watch-appbar-playlist .playlist-label {
+    color: #c03636;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 2px
+}
+#watch-appbar-playlist .playlist-title {
+    color: #fff;
+    display: inline;
+    font-size: 15px;
+    font-weight: normal
+}
+#watch-appbar-playlist .playlist-title a {
+    color: inherit
+}
+#watch-appbar-playlist .playlist-details>li {
+    display: inline-block
+}
+#watch-appbar-playlist .playlist-details>li:after {
+    content: '\002022'
+}
+#watch-appbar-playlist .playlist-details>li:last-child:after {
+    content: ''
+}
+#watch-appbar-playlist .author-attribution {
+    font-size: 11px
+}
+#watch-appbar-playlist .author-attribution a {
+    color: inherit
+}
+#watch-appbar-playlist .playlist-progress #playlist-current-index:after {
+    content: '/'
+}
+#watch-appbar-playlist .appbar-playlist-controls {
+    float: right
+}
+#watch-appbar-playlist .playlist-videos-container {
+    clear: both
+}
+#watch-appbar-playlist .playlist-videos-list {
+    background-color: #222;
+    bottom: 0;
+    counter-reset: playlist-video-section;
+    left: 0;
+    overflow: auto;
+    right: 0;
+    position: absolute;
+    top: 100px;
+    height: 400px;
+}
+#watch-appbar-playlist .radio-playlist .playlist-videos-list {
+    top: 60px
+}
+#watch-appbar-playlist .playlist-videos-list li {
+    overflow: hidden;
+    padding: 10px 10px 10px 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+#watch-appbar-playlist .playlist-videos-list li .index {
+    font-size: 10px;
+    float: left;
+    line-height: 41px;
+    margin: 0 2px;
+    text-align: center;
+    width: 24px
+}
+#watch-appbar-playlist .radio-playlist .playlist-videos-list li .index,
+#watch-appbar-playlist .radio-playlist:not(.watch-queue-nav) .playlist-videos-list li.currently-playing .index {
+    margin: 0;
+    width: 15px
+}
+#watch-appbar-playlist .playlist-videos-list li:hover {
+    background-color: #525252
+}
+#watch-appbar-playlist:not(.watch-queue-nav) .playlist-videos-list li.currently-playing {
+    background-color: #3a3a3a;
+    height: 61px
+}
+#watch-appbar-playlist:not(.watch-queue-nav) .playlist-videos-list li.currently-playing .index {
+    color: #c03636;
+    line-height: 40px
+}
+#watch-appbar-playlist .radio-playlist .playlist-videos-list li:nth-last-child(4),
+#watch-appbar-playlist .radio-playlist .playlist-videos-list li:nth-last-child(3) {
+    opacity: .5
+}
+#watch-appbar-playlist .radio-playlist .playlist-videos-list li:nth-last-child(2) {
+    opacity: .2
+}
+#watch-appbar-playlist .radio-playlist .playlist-videos-list li:last-child {
+    opacity: .1
+}
+#watch-appbar-playlist .yt-uix-button-playlist-remove-item {
+    display: none;
+    float: right;
+    height: 14px;
+    margin: 0
+}
+#watch-appbar-playlist .playlist-videos-list li:hover .yt-uix-button-playlist-remove-item {
+    display: inline-block
+}
+#watch-appbar-playlist .playlist-video {
+    display: block;
+    height: 41px;
+    position: relative
+}
+#watch-appbar-playlist .playlist-video .video-thumb {
+    float: left;
+    margin-left: 0;
+    margin-right: 8px
+}
+#watch-appbar-playlist:not(.watch-queue-nav) .currently-playing .playlist-video .video-thumb {
+    margin-left: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+#watch-appbar-playlist .playlist-video-description {
+    overflow: hidden;
+    position: relative;
+    top: -2px
+}
+#watch-appbar-playlist .playlist-video h4 {
+    color: #cacaca;
+    font-size: 13px;
+    font-weight: normal
+}
+#watch-appbar-playlist .video-uploader-byline {
+    color: #767676;
+    font-size: 11px
+}
+#watch-appbar-playlist .playlist-video:hover {
+    text-decoration: none
+}
+#watch-appbar-playlist .playlist-videos-list .yt-ui-ellipsis {
+    background-color: #222
+}
+#watch-appbar-playlist .playlist-videos-list li:hover .yt-ui-ellipsis {
+    background-color: #525252
+}
+#watch-appbar-playlist:not(.watch-queue-nav) .playlist-videos-list li.currently-playing .yt-ui-ellipsis {
+    background-color: #3a3a3a
+}
+#playlistCP {
+    color: #bbb9b9;
+    font-weight: 100;
+    font-size: 10px;
+    height: 24px;
+    line-height: 23px;
+    float: right;
+}

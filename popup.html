@@ -1,0 +1,180 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="mdl/material.min.js"></script>
+    <script type="text/javascript" src="scripts/loadVars.js"></script>
+    <script type="text/javascript" src="scripts/popup.js"></script>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="mdl/material.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/popup.css" rel="stylesheet" type="text/css">
+    
+    
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" id="container">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title" style="font-size: 16px;"><i class="fa fa-cog" aria-hidden="true"></i>Settings</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <a href="https://www.youtube.com/" target="_blank"> <img src="youtube.png" alt="YouTube" id="ytImage">
+                   
+                </a>
+                <!-- Navigation. We hide it in small screens. -->
+
+            </div>
+        </header>
+
+        <main class="mdl-layout__content">
+            <div class="page-content">
+
+ <!--Auto lights-off Settings -->
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp allCards redInfo">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text "><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Refresh the page to see the changes you have made</h2>
+                      
+                        
+                    </div>
+                    
+                </div>
+                
+                <!--Auto lights-off Settings -->
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp allCards">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Auto Lights-Off</h2>
+                        <div class="mdl-layout-spacer"></div>
+                        <div>
+                            <label id="LightsOffSB" class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="LightsOffInp">
+                                <input type="checkbox" id="LightsOffInp" class="mdl-switch__input" checked>
+                            </label>
+                        </div>
+                    </div>
+                    <div id="AutoLightsOffMore">
+                        <div class="mdl-grid">
+                            <h2 class="mdl-card__title-text">Opacity</h2>
+                            <div class="mdl-layout-spacer"></div>
+                            <div style="max-width: 164px;">
+                                <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0" id="LightsOffOpacity">
+
+                            </div>
+                            <span id="opacityText"></span><span> %</span>
+
+                        </div>
+                        <div class="mdl-grid">
+                            <h2 class="mdl-card__title-text">Delay</h2>
+                            <div class="mdl-layout-spacer"></div>
+                            <div style="max-width: 164px;">
+                                <input class="mdl-slider mdl-js-slider" type="range" min="0" max="10" value="2" tabindex="0" id="LightsOffDelay">
+                            </div>
+                            <span id="DelayText"></span><span>s</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--Tabs Settings-->
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp allCards">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Tabs</h2>
+                        <div class="mdl-layout-spacer"></div>
+                        <div>
+                            <label id="TabsSB" class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="TabsInp">
+                                <input type="checkbox" id="TabsInp" class="mdl-switch__input" checked>
+                                <span class="mdl-switch__label"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div id="TabsMore">
+                        <div class="mdl-grid">
+                            <h2 class="mdl-card__title-text">Info</h2>
+                            <div class="mdl-layout-spacer"></div>
+                            <div>
+                                <label id="InfoSB" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="InfoInp">
+                                    <input type="checkbox" id="InfoInp" class="mdl-checkbox__input" checked>
+
+                                </label>
+
+                            </div>
+                        </div>
+                        <div class="mdl-grid">
+                            <h2 class="mdl-card__title-text">Comments</h2>
+                            <div class="mdl-layout-spacer"></div>
+                            <div>
+                                <label id="CommentsSB" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="CommentsInp">
+                                    <input type="checkbox" id="CommentsInp" class="mdl-checkbox__input" checked>
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Search On Same Page Settings-->
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp allCards">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Annotations</h2>
+                        <div class="mdl-layout-spacer"></div>
+                        <div>
+
+                            <label id="SearchOnSamePageSB" class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="SearchOnSamePageInp">
+                                <input type="checkbox" id="SearchOnSamePageInp" class="mdl-switch__input" checked>
+                                <span class="mdl-switch__label"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Mouse Wheel Volume Control Settings-->
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp allCards">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Volume Control - Mouse Wheel</h2>
+                        <div class="mdl-layout-spacer"></div>
+                        <div>
+                            <label id="MouseVolumeControlSB" class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="MouseVolumeControlInp">
+                                <input type="checkbox" id="MouseVolumeControlInp" class="mdl-switch__input" checked>
+                                <span class="mdl-switch__label"></span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div id="MouseVolumeControlMore">
+                        <div class="mdl-grid">
+                            <h2 class="mdl-card__title-text">Steps</h2>
+                            <div class="mdl-layout-spacer"></div>
+                            <div style="max-width: 164px;">
+                                <input class="mdl-slider mdl-js-slider" type="range" min="1" max="10" value="5" tabindex="0" id="MouseVolumeControlSteps">
+
+                            </div>
+                            <span id="MVCStepsText"></span><span></span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--Tags Settings-->
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp allCards" style="display: none;">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Show Video Tags</h2>
+                        <div class="mdl-layout-spacer"></div>
+                        <div>
+                            <label id="TagsSB" class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="TagsInp">
+                                <input type="checkbox" id="TagsInp" class="mdl-switch__input" checked>
+                                <span class="mdl-switch__label"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
